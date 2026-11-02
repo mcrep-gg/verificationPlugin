@@ -1,0 +1,14 @@
+# McrepVerification: runs the mcrep.gg Link Server.
+# Players join, type /link and get a Link Code to enter on the website.
+
+# The mcrep.gg website. /link asks it for Link Codes.
+api-url: "https://mcrep.gg"
+
+# LINK_SERVER_SECRET from the website's environment. Keep it private: anyone with it can sign in as any Player.
+secret: ""
+
+# Where Players enter their code. Shown in chat as a link.
+sign-in-url: "https://mcrep.gg/sign-in"
+
+# Seconds a Player must wait between /link commands.
+cooldown-seconds: 10

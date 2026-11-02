@@ -1,0 +1,6 @@
+name: McrepVerification
+version: '${project.version}'
+main: gg.mcrep.verification.VerificationPlugin
+description: '${project.description}'
+website: https://mcrep.gg
+api-version: '26.1'
